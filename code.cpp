@@ -16,9 +16,9 @@ using boost::multiprecision::cpp_int;
 enum command{NewKey,ConS,ConD,FileS,FileD,Exit};
 
 /*
-В программе были сделаны ограничения на q и p от 1 до 100
-									 на e до 300
-									 */
+В программе были сделаны ограничения на q и p от 1 до 100				
+на e до 300
+*/
 cpp_int gen()
 {
 	cpp_int i;
